@@ -5,8 +5,7 @@ class Solution(object):
         :rtype: int
         """
         
-        while "()" in S:
-            print(S)
+        while "()" in S:            
             S = S.replace("()","")
         return len(S)
 
